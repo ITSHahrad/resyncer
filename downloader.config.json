@@ -1,0 +1,9 @@
+{
+  "outputPath": "./src/schemas",
+  "sources": [
+    {
+      "name": "downloaded.json",
+      "url": "https://github.com"
+    }
+  ]
+}
