@@ -1,4 +1,4 @@
-// src/index.ts
+#!/usr/bin/env node
 import { Command } from 'commander';
 import { initConfigFile } from './commands/init';
 import { runDownloader } from './commands/run';
