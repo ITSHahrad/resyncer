@@ -4,10 +4,10 @@ import path from 'path';
 import { downloadSource, Config } from '../fetcher';
 
 export const runDownloader = async () => {
-  const configPath = path.resolve(process.cwd(), 'downloader.config.json'); // 🔁 ROOT path
+  const configPath = path.resolve(process.cwd(), 'resyncer.config.json'); // 🔁 ROOT path
 
   if (!fs.existsSync(configPath)) {
-    console.log('❌ Config file not found. Please run "npx downloader init" first.');
+    console.log('❌ Config file not found. Please run "resyncer init" first.');
     return;
   }
 

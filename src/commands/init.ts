@@ -4,7 +4,7 @@ import path from 'path';
 import inquirer from 'inquirer';
 
 export const initConfigFile = async () => {
-  const configPath = path.resolve(process.cwd(), 'downloader.config.json'); // 🔁 ROOT path
+  const configPath = path.resolve(process.cwd(), 'resyncer.config.json'); // 🔁 ROOT path
 
   if (fs.existsSync(configPath)) {
     const { overwrite } = await inquirer.prompt([
